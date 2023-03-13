@@ -1,1 +1,6 @@
 dataset/
+
+__pycache__
+
+
+.sample.csv.temp
