@@ -32,8 +32,8 @@ def split_data(data: pd.DataFrame):
                     'endtime', 'sessionid', 'insider', 'timeind', 'Unnamed: 0']
     x_cols = [i for i in data.columns if i not in removed_cols]
 
-    first_half = data[data.week <= max(data.week)/2]
-    second_half = data[data.week > max(data.week)/2]
+    first_half = data[data.week <= max(data.week)/2].copy()
+    second_half = data[data.week > max(data.week)/2].copy()
 
     np.random.seed(45)
 
@@ -134,16 +134,17 @@ ml_models = {
 }
 
 
-def run(train_data, test_data, percent_of_majority):
-
-    insider_count = train_data["insider"].value_counts()
-    n_samples_to_generate = calc_n_samples(
-        insider_count[False], insider_count[True], percent_of_majority)
-
-    x_test = test_data.drop("insider", axis=1)
-    y_test = test_data["insider"]
-
+def run(data, percent_of_majority):
     for gen_model_path in glob("./generative_models/*"):
+        train_data, test_data = get_training_data(data)
+
+        insider_count = train_data["insider"].value_counts()
+        n_samples_to_generate = calc_n_samples(
+            insider_count[False], insider_count[True], percent_of_majority)
+
+        x_test = test_data.drop("insider", axis=1)
+        y_test = test_data["insider"]
+
         gen_model_name = os.path\
             .normpath(gen_model_path)\
             .split(os.path.sep)[-1][:-4]
@@ -190,16 +191,14 @@ def run(train_data, test_data, percent_of_majority):
 
 if __name__ == "__main__":
     data: pd.DataFrame = pd.read_csv(f"./dataset/weekr5.2.csv")
-    train_data, test_data = get_training_data(data)
 
-    percent_of_majority = 0
+    percent_of_majority = 5
 
     while percent_of_majority <= 5:
         print(percent_of_majority, "\n---------")
 
         log.info(
             f"Generate {percent_of_majority} percent majority of minority class".replace(" ", "_"))
-        run(train_data.copy(deep=True), test_data.copy(
-            deep=True), percent_of_majority)
+        run(data, percent_of_majority)
 
         percent_of_majority += 5
