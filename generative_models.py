@@ -26,7 +26,7 @@ def get_malicious_samples(data: pd.DataFrame):
     return first_half[first_half.insider > 0][x_cols]
 
 
-data = pd.read_csv("./datasets/weekr5.2.csv")
+data = pd.read_csv("./dataset/weekr5.2.csv")
 malicious_samples = get_malicious_samples(data)
 
 
