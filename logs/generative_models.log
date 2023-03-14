@@ -1,5 +1,8 @@
-2023-03-13 13:50:47,850 general - INFO - GaussianCopula start
-2023-03-13 13:51:45,516 general - INFO - GaussianCopula end
-2023-03-13 13:51:47,389 general - INFO - CopulaGAN start
-2023-03-13 15:21:32,966 general - INFO - CopulaGAN end
-2023-03-13 15:21:37,942 general - INFO - CTGAN start
+2023-03-13 17:18:41,734 general - INFO - GaussianCopula start
+2023-03-13 17:19:39,485 general - INFO - GaussianCopula end
+2023-03-13 17:19:41,081 general - INFO - CopulaGAN start
+2023-03-13 18:50:54,675 general - INFO - CopulaGAN end
+2023-03-13 18:50:59,556 general - INFO - CTGAN start
+2023-03-13 20:26:37,285 general - INFO - CTGAN end
+2023-03-13 20:26:40,928 general - INFO - TVAE start
+2023-03-13 20:38:56,099 general - INFO - TVAE end
