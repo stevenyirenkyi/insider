@@ -1,0 +1,116 @@
+2023-03-14 11:40:39,464 general - INFO - Generate_5_percent_majority_of_minority_class
+2023-03-14 11:40:44,855 general - INFO - Generating samples with tvae 
+2023-03-14 11:45:42,169 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 11:50:32,779 general - INFO - 5_gaussiancopula_Decision-Tree_80.28
+2023-03-14 11:51:06,473 general - INFO - Generating samples with copulagan 
+2023-03-14 11:58:01,439 general - INFO - Generating samples with ctgan 
+2023-03-14 12:04:29,876 general - INFO - Generate_10_percent_majority_of_minority_class
+2023-03-14 12:04:35,993 general - INFO - Generating samples with tvae 
+2023-03-14 12:09:53,466 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 12:14:34,563 general - INFO - 10_gaussiancopula_Decision-Tree_80.28
+2023-03-14 12:15:02,699 general - INFO - Generating samples with copulagan 
+2023-03-14 12:22:43,516 general - INFO - Generating samples with ctgan 
+2023-03-14 12:29:14,974 general - INFO - Generate_15_percent_majority_of_minority_class
+2023-03-14 12:29:20,060 general - INFO - Generating samples with tvae 
+2023-03-14 12:34:08,723 general - INFO - 15_tvae_Decision-Tree_81.13
+2023-03-14 12:34:36,244 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 12:39:50,457 general - INFO - Generating samples with copulagan 
+2023-03-14 12:48:21,418 general - INFO - Generating samples with ctgan 
+2023-03-14 12:55:20,894 general - INFO - 15_ctgan_Decision-Tree_80.00
+2023-03-14 12:55:44,917 general - INFO - Generate_20_percent_majority_of_minority_class
+2023-03-14 12:55:51,010 general - INFO - Generating samples with tvae 
+2023-03-14 13:00:59,288 general - INFO - 20_tvae_Decision-Tree_81.13
+2023-03-14 13:01:28,097 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 13:07:07,143 general - INFO - Generating samples with copulagan 
+2023-03-14 13:16:20,917 general - INFO - Generating samples with ctgan 
+2023-03-14 13:23:01,968 general - INFO - 20_ctgan_Decision-Tree_80.56
+2023-03-14 13:23:26,380 general - INFO - Generate_25_percent_majority_of_minority_class
+2023-03-14 13:23:33,032 general - INFO - Generating samples with tvae 
+2023-03-14 13:28:48,856 general - INFO - 25_tvae_Decision-Tree_80.00
+2023-03-14 13:29:20,839 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 13:35:15,324 general - INFO - Generating samples with copulagan 
+2023-03-14 13:45:34,425 general - INFO - Generating samples with ctgan 
+2023-03-14 13:52:46,145 general - INFO - 25_ctgan_Decision-Tree_82.54
+2023-03-14 13:53:12,644 general - INFO - Generate_30_percent_majority_of_minority_class
+2023-03-14 13:53:17,921 general - INFO - Generating samples with tvae 
+2023-03-14 13:59:37,474 general - INFO - 30_tvae_Decision-Tree_81.97
+2023-03-14 14:00:12,428 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 14:06:36,602 general - INFO - Generating samples with copulagan 
+2023-03-14 14:17:21,997 general - INFO - Generating samples with ctgan 
+2023-03-14 14:26:19,397 general - INFO - Generate_35_percent_majority_of_minority_class
+2023-03-14 14:26:26,956 general - INFO - Generating samples with tvae 
+2023-03-14 14:33:07,686 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 14:39:14,358 general - INFO - Generating samples with copulagan 
+2023-03-14 14:50:26,837 general - INFO - Generating samples with ctgan 
+2023-03-14 14:59:10,167 general - INFO - Generate_40_percent_majority_of_minority_class
+2023-03-14 14:59:16,074 general - INFO - Generating samples with tvae 
+2023-03-14 15:06:09,332 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 15:13:26,740 general - INFO - Generating samples with copulagan 
+2023-03-14 15:27:16,101 general - INFO - Generating samples with ctgan 
+2023-03-14 15:36:35,898 general - INFO - Generate_45_percent_majority_of_minority_class
+2023-03-14 15:36:43,395 general - INFO - Generating samples with tvae 
+2023-03-14 15:44:02,732 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 15:52:44,552 general - INFO - Generating samples with copulagan 
+2023-03-14 16:08:21,617 general - INFO - Generating samples with ctgan 
+2023-03-14 16:17:33,583 general - INFO - 45_ctgan_Decision-Tree_81.41
+2023-03-14 16:18:13,481 general - INFO - Generate_50_percent_majority_of_minority_class
+2023-03-14 16:18:20,995 general - INFO - Generating samples with tvae 
+2023-03-14 16:26:01,410 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 16:34:18,722 general - INFO - Generating samples with copulagan 
+2023-03-14 16:48:24,263 general - INFO - Generating samples with ctgan 
+2023-03-14 16:59:56,094 general - INFO - 50_ctgan_Decision-Tree_81.13
+2023-03-14 17:00:37,482 general - INFO - Generate_55_percent_majority_of_minority_class
+2023-03-14 17:00:42,748 general - INFO - Generating samples with tvae 
+2023-03-14 17:08:36,153 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 17:16:05,418 general - INFO - Generating samples with copulagan 
+2023-03-14 17:33:19,314 general - INFO - Generating samples with ctgan 
+2023-03-14 17:46:05,696 general - INFO - Generate_60_percent_majority_of_minority_class
+2023-03-14 17:46:13,549 general - INFO - Generating samples with tvae 
+2023-03-14 17:56:36,334 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 18:05:16,382 general - INFO - Generating samples with copulagan 
+2023-03-14 18:22:35,629 general - INFO - Generating samples with ctgan 
+2023-03-14 18:35:35,640 general - INFO - Generate_65_percent_majority_of_minority_class
+2023-03-14 18:35:48,402 general - INFO - Generating samples with tvae 
+2023-03-14 18:45:51,971 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 18:54:15,929 general - INFO - Generating samples with copulagan 
+2023-03-14 19:10:11,222 general - INFO - Generating samples with ctgan 
+2023-03-14 19:22:02,384 general - INFO - 65_ctgan_Decision-Tree_81.41
+2023-03-14 19:22:53,475 general - INFO - Generate_70_percent_majority_of_minority_class
+2023-03-14 19:23:04,877 general - INFO - Generating samples with tvae 
+2023-03-14 19:32:25,980 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 19:42:00,450 general - INFO - Generating samples with copulagan 
+2023-03-14 20:00:43,211 general - INFO - Generating samples with ctgan 
+2023-03-14 20:14:46,290 general - INFO - 70_ctgan_Decision-Tree_80.56
+2023-03-14 20:15:35,190 general - INFO - Generate_75_percent_majority_of_minority_class
+2023-03-14 20:15:43,776 general - INFO - Generating samples with tvae 
+2023-03-14 20:26:13,688 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 20:37:08,787 general - INFO - Generating samples with copulagan 
+2023-03-14 20:56:52,491 general - INFO - Generating samples with ctgan 
+2023-03-14 21:12:38,702 general - INFO - Generate_80_percent_majority_of_minority_class
+2023-03-14 21:12:46,404 general - INFO - Generating samples with tvae 
+2023-03-14 21:22:34,349 general - INFO - 80_tvae_Decision-Tree_79.72
+2023-03-14 21:23:44,274 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 21:34:38,122 general - INFO - Generating samples with copulagan 
+2023-03-14 21:58:51,145 general - INFO - Generating samples with ctgan 
+2023-03-14 22:15:43,446 general - INFO - Generate_85_percent_majority_of_minority_class
+2023-03-14 22:15:52,702 general - INFO - Generating samples with tvae 
+2023-03-14 22:28:11,981 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 22:38:15,026 general - INFO - Generating samples with copulagan 
+2023-03-14 23:02:27,207 general - INFO - Generating samples with ctgan 
+2023-03-14 23:16:26,309 general - INFO - Generate_90_percent_majority_of_minority_class
+2023-03-14 23:16:33,324 general - INFO - Generating samples with tvae 
+2023-03-14 23:27:03,710 general - INFO - Generating samples with gaussiancopula 
+2023-03-14 23:38:14,171 general - INFO - Generating samples with copulagan 
+2023-03-15 00:00:22,787 general - INFO - Generating samples with ctgan 
+2023-03-15 00:16:28,466 general - INFO - Generate_95_percent_majority_of_minority_class
+2023-03-15 00:16:35,271 general - INFO - Generating samples with tvae 
+2023-03-15 00:28:19,036 general - INFO - Generating samples with gaussiancopula 
+2023-03-15 00:40:31,970 general - INFO - Generating samples with copulagan 
+2023-03-15 01:05:36,597 general - INFO - Generating samples with ctgan 
+2023-03-15 01:21:25,889 general - INFO - 95_ctgan_Decision-Tree_80.85
+2023-03-15 01:22:27,114 general - INFO - Generate_100_percent_majority_of_minority_class
+2023-03-15 01:22:33,768 general - INFO - Generating samples with tvae 
+2023-03-15 01:35:42,872 general - INFO - Generating samples with gaussiancopula 
+2023-03-15 01:47:57,398 general - INFO - Generating samples with copulagan 
+2023-03-15 02:12:55,230 general - INFO - Generating samples with ctgan 
+2023-03-15 02:27:45,757 general - INFO - 100_ctgan_Decision-Tree_81.41

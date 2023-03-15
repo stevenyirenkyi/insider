@@ -1,0 +1,19 @@
+GAUSSIAN NB
+TVAE
+15% malicious samples
+
+Recall		33.24%
+Precision	16.19%
+FPR		0.91%
+F1		21.77%
+AUC		66.16%
+Accuracy	98.74%
+
+TP		118
+FP		611
+FN		237
+TN		66405
+
+
+Train Len	16580
+Test Len	67371

@@ -1,0 +1,19 @@
+DECISION TREE
+TVAE
+35% malicious samples
+
+Recall		79.44%
+Precision	33.53%
+FPR		0.83%
+F1		47.16%
+AUC		89.30%
+Accuracy	99.06%
+
+TP		282
+FP		559
+FN		73
+TN		66457
+
+
+Train Len	19463
+Test Len	67371

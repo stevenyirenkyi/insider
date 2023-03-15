@@ -9,6 +9,7 @@ from sdv.tabular.base import BaseTabularModel
 from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 from xgboost import XGBClassifier
 from sklearn.metrics import confusion_matrix, recall_score, f1_score, accuracy_score, precision_score
@@ -126,15 +127,18 @@ def get_synthetic_model(name, path) -> BaseTabularModel:
 
 
 ml_models = {
+    "Support Vector Machine": lambda: SVC(class_weight="balanced"),
     "Decision Tree": lambda: DecisionTreeClassifier(random_state=0),
     "Random Forest": lambda: RandomForestClassifier(n_jobs=-1, random_state=0),
     "XGBoost": lambda: XGBClassifier(n_jobs=-1, random_state=0),
     "Gaussian NB": lambda: GaussianNB(),
-    "Gradient Boosting": lambda: GradientBoostingClassifier(random_state=0),
 }
 
 
 def run(data, percent_of_majority):
+    log.info(
+        f"Generate {percent_of_majority} percent majority of minority class".replace(" ", "_"))
+
     for gen_model_path in glob("./generative_models/*"):
         train_data, test_data = get_training_data(data)
 
@@ -151,22 +155,19 @@ def run(data, percent_of_majority):
         gen_model = get_synthetic_model(
             gen_model_name, gen_model_path)
 
-        if percent_of_majority == 0:
-            x_train = train_data.drop("insider", axis=1)
-            y_train = train_data["insider"]
-        else:
-            # generate artificial malicious samples
-            synthetic_malicious_samples = gen_model.sample(
-                num_rows=n_samples_to_generate)
-            synthetic_malicious_samples = synthetic_malicious_samples.copy()
-            synthetic_malicious_samples["insider"] = True
+        # generate artificial malicious samples
+        log.info(f"Generating samples with {gen_model_name} ")
+        synthetic_malicious_samples = gen_model.sample(
+            num_rows=n_samples_to_generate)
+        synthetic_malicious_samples = synthetic_malicious_samples.copy()
+        synthetic_malicious_samples["insider"] = True
 
-            # balance train dataset
-            balanced_train_data = pd.concat(
-                [train_data, synthetic_malicious_samples], ignore_index=True)
+        # balance train dataset
+        balanced_train_data = pd.concat(
+            [train_data, synthetic_malicious_samples], ignore_index=True)
 
-            x_train = balanced_train_data.drop("insider", axis=1)
-            y_train = balanced_train_data["insider"]
+        x_train = balanced_train_data.drop("insider", axis=1)
+        y_train = balanced_train_data["insider"]
 
         scaler = StandardScaler()
         x_train = scaler.fit_transform(x_train)
@@ -197,8 +198,6 @@ if __name__ == "__main__":
     while percent_of_majority <= 5:
         print(percent_of_majority, "\n---------")
 
-        log.info(
-            f"Generate {percent_of_majority} percent majority of minority class".replace(" ", "_"))
         run(data, percent_of_majority)
 
         percent_of_majority += 5

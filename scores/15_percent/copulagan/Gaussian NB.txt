@@ -1,0 +1,19 @@
+GAUSSIAN NB
+COPULAGAN
+15% malicious samples
+
+Recall		63.66%
+Precision	9.54%
+FPR		3.20%
+F1		16.60%
+AUC		80.23%
+Accuracy	96.63%
+
+TP		226
+FP		2142
+FN		129
+TN		64874
+
+
+Train Len	16580
+Test Len	67371

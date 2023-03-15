@@ -1,0 +1,19 @@
+SUPPORT VECTOR MACHINE
+CTGAN
+55% malicious samples
+
+Recall		27.04%
+Precision	82.05%
+FPR		0.03%
+F1		40.68%
+AUC		63.51%
+Accuracy	99.58%
+
+TP		96
+FP		21
+FN		259
+TN		66995
+
+
+Train Len	22347
+Test Len	67371

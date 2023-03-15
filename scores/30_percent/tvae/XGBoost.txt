@@ -1,0 +1,19 @@
+XGBOOST
+TVAE
+30% malicious samples
+
+Recall		66.48%
+Precision	77.89%
+FPR		0.10%
+F1		71.73%
+AUC		83.19%
+Accuracy	99.72%
+
+TP		236
+FP		67
+FN		119
+TN		66949
+
+
+Train Len	18743
+Test Len	67371

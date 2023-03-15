@@ -1,0 +1,19 @@
+RANDOM FOREST
+CTGAN
+35% malicious samples
+
+Recall		67.32%
+Precision	90.53%
+FPR		0.04%
+F1		77.22%
+AUC		83.64%
+Accuracy	99.79%
+
+TP		239
+FP		25
+FN		116
+TN		66991
+
+
+Train Len	19463
+Test Len	67371

@@ -1,0 +1,19 @@
+RANDOM FOREST
+TVAE
+45% malicious samples
+
+Recall		59.72%
+Precision	95.50%
+FPR		0.01%
+F1		73.48%
+AUC		79.85%
+Accuracy	99.77%
+
+TP		212
+FP		10
+FN		143
+TN		67006
+
+
+Train Len	20905
+Test Len	67371

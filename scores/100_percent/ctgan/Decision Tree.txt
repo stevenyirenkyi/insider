@@ -1,0 +1,19 @@
+DECISION TREE
+CTGAN
+100% malicious samples
+
+Recall		81.41%
+Precision	33.14%
+FPR		0.87%
+F1		47.11%
+AUC		90.27%
+Accuracy	99.04%
+
+TP		289
+FP		583
+FN		66
+TN		66433
+
+
+Train Len	28834
+Test Len	67371

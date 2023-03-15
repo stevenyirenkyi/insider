@@ -1,0 +1,19 @@
+SUPPORT VECTOR MACHINE
+COPULAGAN
+45% malicious samples
+
+Recall		33.24%
+Precision	38.82%
+FPR		0.28%
+F1		35.81%
+AUC		66.48%
+Accuracy	99.37%
+
+TP		118
+FP		186
+FN		237
+TN		66830
+
+
+Train Len	20905
+Test Len	67371

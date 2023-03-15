@@ -1,0 +1,19 @@
+XGBOOST
+CTGAN
+25% malicious samples
+
+Recall		73.24%
+Precision	64.52%
+FPR		0.21%
+F1		68.60%
+AUC		86.51%
+Accuracy	99.65%
+
+TP		260
+FP		143
+FN		95
+TN		66873
+
+
+Train Len	18022
+Test Len	67371

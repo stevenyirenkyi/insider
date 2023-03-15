@@ -1,0 +1,19 @@
+XGBOOST
+GAUSSIANCOPULA
+60% malicious samples
+
+Recall		70.70%
+Precision	57.70%
+FPR		0.27%
+F1		63.54%
+AUC		85.21%
+Accuracy	99.57%
+
+TP		251
+FP		184
+FN		104
+TN		66832
+
+
+Train Len	23068
+Test Len	67371

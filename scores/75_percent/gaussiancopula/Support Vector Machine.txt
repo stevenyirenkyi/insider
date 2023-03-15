@@ -1,0 +1,19 @@
+SUPPORT VECTOR MACHINE
+GAUSSIANCOPULA
+75% malicious samples
+
+Recall		20.00%
+Precision	94.67%
+FPR		0.01%
+F1		33.02%
+AUC		60.00%
+Accuracy	99.57%
+
+TP		71
+FP		4
+FN		284
+TN		67012
+
+
+Train Len	25230
+Test Len	67371

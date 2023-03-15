@@ -1,0 +1,19 @@
+RANDOM FOREST
+GAUSSIANCOPULA
+70% malicious samples
+
+Recall		64.51%
+Precision	90.51%
+FPR		0.04%
+F1		75.33%
+AUC		82.24%
+Accuracy	99.78%
+
+TP		229
+FP		24
+FN		126
+TN		66992
+
+
+Train Len	24509
+Test Len	67371

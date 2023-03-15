@@ -1,0 +1,19 @@
+DECISION TREE
+GAUSSIANCOPULA
+25% malicious samples
+
+Recall		73.52%
+Precision	30.67%
+FPR		0.88%
+F1		43.28%
+AUC		86.32%
+Accuracy	98.98%
+
+TP		261
+FP		590
+FN		94
+TN		66426
+
+
+Train Len	18022
+Test Len	67371

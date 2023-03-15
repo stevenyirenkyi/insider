@@ -1,0 +1,19 @@
+DECISION TREE
+COPULAGAN
+35% malicious samples
+
+Recall		72.96%
+Precision	15.91%
+FPR		2.04%
+F1		26.12%
+AUC		85.46%
+Accuracy	97.83%
+
+TP		259
+FP		1369
+FN		96
+TN		65647
+
+
+Train Len	19463
+Test Len	67371

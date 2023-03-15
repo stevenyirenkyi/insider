@@ -1,0 +1,19 @@
+XGBOOST
+COPULAGAN
+95% malicious samples
+
+Recall		59.15%
+Precision	55.26%
+FPR		0.25%
+F1		57.14%
+AUC		79.45%
+Accuracy	99.53%
+
+TP		210
+FP		170
+FN		145
+TN		66846
+
+
+Train Len	28114
+Test Len	67371

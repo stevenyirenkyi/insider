@@ -1,0 +1,19 @@
+RANDOM FOREST
+COPULAGAN
+70% malicious samples
+
+Recall		66.48%
+Precision	31.34%
+FPR		0.77%
+F1		42.60%
+AUC		82.85%
+Accuracy	99.06%
+
+TP		236
+FP		517
+FN		119
+TN		66499
+
+
+Train Len	24509
+Test Len	67371

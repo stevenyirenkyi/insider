@@ -1,0 +1,19 @@
+GAUSSIAN NB
+GAUSSIANCOPULA
+90% malicious samples
+
+Recall		43.10%
+Precision	14.04%
+FPR		1.40%
+F1		21.18%
+AUC		70.85%
+Accuracy	98.31%
+
+TP		153
+FP		937
+FN		202
+TN		66079
+
+
+Train Len	27393
+Test Len	67371

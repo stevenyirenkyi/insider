@@ -1,0 +1,19 @@
+GAUSSIAN NB
+CTGAN
+70% malicious samples
+
+Recall		62.25%
+Precision	9.70%
+FPR		3.07%
+F1		16.78%
+AUC		79.59%
+Accuracy	96.75%
+
+TP		221
+FP		2058
+FN		134
+TN		64958
+
+
+Train Len	24509
+Test Len	67371

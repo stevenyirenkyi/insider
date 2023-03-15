@@ -1,0 +1,19 @@
+SUPPORT VECTOR MACHINE
+TVAE
+75% malicious samples
+
+Recall		13.52%
+Precision	84.21%
+FPR		0.01%
+F1		23.30%
+AUC		56.75%
+Accuracy	99.53%
+
+TP		48
+FP		9
+FN		307
+TN		67007
+
+
+Train Len	25230
+Test Len	67371
